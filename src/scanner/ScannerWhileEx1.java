@@ -15,9 +15,9 @@ public class ScannerWhileEx1 {
                 break;
             }
 
-            System.out.print("나이를 입력하세요: ");
-            int age = scanner.nextInt();
-            scanner.nextLine(); // 줄바꿈
+            System.out.print("나이를 입력하세요: "); // 10\n을 입력함
+            int age = scanner.nextInt(); // nextInt는 10만 가져감
+            scanner.nextLine(); // 이걸로 남은 \n을 읽고 버림 (넘어가서 name에 \n이 입력되지 않도록)
 
             System.out.println("입력한 이름: " + name + ", 나이: " + age);
         }
