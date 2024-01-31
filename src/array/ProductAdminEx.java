@@ -27,7 +27,7 @@ public class ProductAdminEx {
                 productNames[productCount] = scanner.nextLine();
 
                 System.out.print("상품 가격을 입력하세요:");
-                productNames[productCount] = scanner.nextLine();
+                productPrices[productCount] = scanner.nextInt();
 
                 productCount++;
 
