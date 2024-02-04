@@ -1,4 +1,4 @@
-package cond;
+package cond.ex;
 
 public class EvenOdd {
     public static void main(String[] args) {
