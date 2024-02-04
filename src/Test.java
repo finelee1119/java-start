@@ -1,10 +1,12 @@
 public class Test {
     public static void main(String[] args) {
+        int rows = 2;
 
-        int x = 3;
-
-        String result = ( x % 2 == 0) ? "짝수" : "홀수";
-
-        System.out.println("x = " + x + ", " + result);
+        for (int i = 0; i < rows ; i++) {
+            for (int j = 0; j < i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
 }
