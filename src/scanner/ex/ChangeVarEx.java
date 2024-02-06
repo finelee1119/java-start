@@ -1,4 +1,4 @@
-package scanner;
+package scanner.ex;
 
 public class ChangeVarEx {
     public static void main(String[] args) {

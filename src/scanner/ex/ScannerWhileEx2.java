@@ -1,4 +1,4 @@
-package scanner;
+package scanner.ex;
 
 import java.sql.SQLOutput;
 import java.util.Scanner;
