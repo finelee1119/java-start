@@ -1,4 +1,4 @@
-package method;
+package method.ex;
 
 public class MethodEx3Ref {
     public static void main(String[] args) {
